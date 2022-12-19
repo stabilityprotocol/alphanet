@@ -24,7 +24,7 @@ RPCEVMTimeout = 5000000000
 RPCTxFeeCap = 1e+00
 
 [Eth.Miner]
-Etherbase = "0x8c61c524df2a65993154493a28fafb3cd7c87a65"
+Etherbase = "0xf7e039a055be65421f374adc979f2832a92c8fa5"
 GasFloor = 0
 GasCeil = 30000000
 GasPrice = 1000000000
@@ -72,7 +72,7 @@ GraphQLVirtualHosts = ["localhost"]
 
 [Node.P2P]
 MaxPeers = 50
-NoDiscovery = false
+NoDiscovery = true
 BootstrapNodes = ["enode://d40e549c9020b42e9a4ba57ed4afe10d281160f13e915033a345c83abde868e90b48f5fdd97072eb6383574f4851d2ccc58c1e7daaf497fdb10f80f6b01dda6b@3.16.239.135:30303"]
 BootstrapNodesV5 = []
 StaticNodes = []
